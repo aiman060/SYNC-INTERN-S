@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+       
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+            background-color: #006241;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-container img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            box-shadow: 2px 2px 2px rgb(252, 251, 251);
+        }
+
+        .nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav li {
+            margin-right: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .leftdiv {
+            background-color: #f7faf9;
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .rightdiv {
+            background-color: #006241;
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+      
+        .textBox {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .textBox h2 {
+            color: #333;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        .textBox h2 span {
+            color: #017143;
+            font-size: 1.2em;
+            font-weight: 900;
+        }
+
+        .textBox p {
+            color: #333;
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+
+        .textBox a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background: #017143;
+            color: #fff;
+            border-radius: 40px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-decoration: none;
+        }
+
+        .textBox a:hover {
+            background-color: #ffca28;
+            color: #000;
+        }
+
+        
+        .rightdiv img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <img src="C:\Users\HP\Desktop\task\starbucks-logo.png" alt="" class="logo">
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Rewards</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="leftdiv">
+            <div class="textBox">
+                <h2>It's not just Coffee <br>It's <span>Starbucks</span></h2>
+                <p>It takes many hands to craft the perfect cup of coffee – from the farmers who tend to the red-ripe coffee cherries, to the master roasters who coax the best from every bean, and to the barista who serves it with care. We are committed to the highest standards of quality and service, embracing our heritage while innovating to create new experiences to savor.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        <div class="rightdiv">
+            <img src="C:\Users\HP\Desktop\task\coffe.png" alt="Coffee Cup">
+        </div>
+    </div>
+</body>
+</html>
